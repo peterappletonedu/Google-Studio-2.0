@@ -59,7 +59,7 @@ export async function* streamDefinition(
   }
 
   const prompt = `
-    You are an AI assistant representing the professional portfolio of ${process.env.USER_EMAIL || 'a software engineer'}.
+    You are an AI assistant representing the professional portfolio of ${process.env.USER_EMAIL || 'a Supply Chain Management Intern'}.
     
     CONTEXT (Source of Truth):
     ${portfolioContext}
@@ -69,8 +69,8 @@ export async function* streamDefinition(
     INSTRUCTIONS:
     1. Provide a professional, concise, single-paragraph description for the topic in the context of this portfolio.
     2. If the topic is explicitly in the resume (e.g., a skill, project, or company), describe the specific experience or value associated with it.
-    3. If the topic is a related technical concept not explicitly listed, explain how it fits into the engineer's overall expertise or how it relates to their existing skills.
-    4. If the topic is completely irrelevant to a professional software engineering portfolio, politely explain that it is outside the scope of this portfolio and suggest a related topic from the resume.
+    3. If the topic is a related technical concept not explicitly listed, explain how it fits into the candidates's overall expertise or how it relates to their existing skills.
+    4. If the topic is completely irrelevant to a professional Supply Chain Management or Business Administration portfolio, politely explain that it is outside the scope of this portfolio and suggest a related topic from the resume.
     5. Be informative, professional, and highlight value.
     6. Do not use markdown, titles, or any special formatting. Respond with only the text of the description itself.
   `;
@@ -107,7 +107,7 @@ export async function getRandomWord(): Promise<string> {
     throw new Error('API_KEY is not configured.');
   }
 
-  const prompt = `Generate a single, professional skill, technology, or qualification commonly found in a modern software engineer's portfolio (e.g., "React", "TypeScript", "Cloud Architecture", "Agile Methodology", "System Design"). Respond with only the word or concept itself, with no extra text, punctuation, or formatting.`;
+  const prompt = `Generate a single, professional skill, technology, or qualification commonly found in a Supply Chain Management Intern's portfolio (e.g. "Figma", "Performance Optimization", "Financial Mathematics", "Reading Habit", "Excel", "Word", "Software Literacy", "Analysis", "Statistics", "Creative thinking", "Systems Thinking", "Health & Safety"). Respond with only the word or concept itself, with no extra text, punctuation, or formatting.`;
 
   try {
     const response = await ai.models.generateContent({

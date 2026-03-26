@@ -12,7 +12,7 @@ import AsciiArtDisplay from './components/AsciiArtDisplay';
 
 // A curated list of portfolio-related skills and qualifications.
 const PREDEFINED_WORDS = [
-  'React', 'TypeScript', 'Node.js', 'Next.js', 'Tailwind CSS', 'PostgreSQL', 'MongoDB', 'GraphQL', 'REST API', 'Docker', 'Kubernetes', 'AWS', 'Google Cloud', 'Azure', 'Firebase', 'CI/CD', 'Git', 'Agile', 'Scrum', 'System Design', 'UI/UX Design', 'Figma', 'Responsive Design', 'Accessibility', 'Unit Testing', 'Integration Testing', 'Performance Optimization', 'SEO', 'Web Vitals', 'Microservices', 'Serverless', 'Python', 'Go', 'Rust', 'Java', 'C++', 'Machine Learning', 'Data Visualization', 'D3.js', 'Three.js', 'WebSockets', 'OAuth', 'JWT', 'Redis', 'Elasticsearch', 'Terraform', 'Ansible', 'Jenkins', 'GitHub Actions', 'Vercel'
+  'MCP integration with Claude (Anthropic)', 'AWSEducation', 'Google Cloud', 'MS-365 Ecosystem', 'System Design', 'Figma', 'Performance Optimization', 'Financial Mathematics', 'Reading Habit', 'Excel', 'Word', 'Software Literacy', 'Analysis', 'Statistics', 'Creative thinking', 'Systems Thinking', 'Health & Safety', 'Internal Audit', 'Quality', 'Compliance Tracking', 'Creative', 'Operational Leadership'
 ];
 const UNIQUE_WORDS = [...new Set(PREDEFINED_WORDS)];
 
@@ -193,8 +193,8 @@ const App: React.FC = () => {
       <footer id="footer-1" className="sticky-footer">
         <p id="footer-text-1" className="footer-text" style={{ margin: 0 }}>
           <span id="footer-item-1">Portfolio Wiki &copy; 2026</span> | 
-          <a id="footer-link-1" href="https://github.com" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
-          <a id="footer-link-2" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+          <a id="footer-link-1" href="https://github.com/peterappletonedu" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
+          <a id="footer-link-2" href="https://www.linkedin.com/in/peter-appleton-sait-scm-student" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
           {generationTime && <span id="generation-time-1"> · {Math.round(generationTime)}ms</span>}
         </p>
       </footer>
