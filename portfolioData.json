@@ -1,0 +1,51 @@
+{
+  "personalInfo": {
+    "name": "Peter Appleton",
+    "role": "Supply Chain Management - BA Diploma 2027 ",
+    "email": "peterappletonn@gmail.com",
+    "location": "Calgary, Aberta, Canada"
+  },
+  "certifications": [
+    "GoLean 6Sigma Yellow Belt",
+    "MOS-Word 365 Associate",
+    "MOS-Excel 365 Associate",
+    "CounterBalance Forklift Operator License"
+    "< 10 Tonnes Marine Crane Operator License"
+    "VHF License"
+    "Class 5 Driver's License"
+    "Pleasure Craft Operator Card"
+  ],
+  "experience": [
+    {
+      "company": "Cermaq Canada Ltd.",
+      "role": "Animal Welfare Technician ",
+      "period": "Sept 2022 – April 2024",
+      "description": "Collected and recorded biological and operational data of aquaculture treatments. Maintained safety and compliance records, serving as vessel Safety Representative. Analyzed treatment efficacy and prepared professional reports for management."
+    },
+    {
+      "company": "Cermaq Canada Ltd.",
+      "role": "Saltwater Husbandry Technician.",
+      "period": "Sept 2021 – Sept 2022",
+      "description": "Logged daily operations data for production planning and compliance tracking. Operated boats, forklifts, and machinery while ensuring inventory accuracy."
+    },
+    {
+      "company": "National Council for Air and Stream Improvement (NCASI)",
+      "role": "Caribou Research Assistant ",
+      "period": "June-Sept 2018",
+      "description": "Collected data and flora-samples for natural resource management of Boreal Forest. Lived remote in Northern Ontario, maintaining quality of records and bioassay samples."
+    }
+  ],
+  "skills": [
+    "MCP integration with Claude (Anthropic)", "AWSEducation", "Google Cloud", "MS-365 Ecosystem", "System Design", "Figma", "Performance Optimization", "Financial Mathematics", "Reading Habit", "Excel", "Word", "Software Literacy", "Analysis", "Statistics", "Creative thinking", "Systems Thinking", "Health & Safety", "Internal Audit", "Quality", "Compliance Tracking", "Creative", "operational Leadership"
+  ],
+  "projects": [
+    {
+      "name": "Remixing 'Infinite Wiki': To create my own 'Wiki' stylized  professional portfolio",
+      "description": "personalized A real-time AI-generated wiki exploring professional skills and experiences. Built with React, Gemini API, and Express. Exploring the Use-cases for Vibe Coding, and uncovering the value of understanding code architecture while honing an ability to build websites, automations, databases, and processes hold."
+    },
+    {
+      "name": "Personal Portfolio: Developing Ground-Up Vibe-Code Process",
+      "description": "This project was done through free tier of Claude. Exploring MCP connection usefullness for connecting such ecosystems as Cursor, Figma, a GitHub repository, among others when creating a website from scratch in Claude-free as a beginner/student. "
+    }
+  ]
+}
